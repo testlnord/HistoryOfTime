@@ -1,0 +1,44 @@
+\documentclass[a4paper,12pt]{article} %размер бумаги устанавливаем А4, шрифт 12пунктов
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}%включаем свою кодировку: koi8-r или utf8 в UNIX, cp1251 в Windows
+\usepackage[english,russian]{babel}%используем русский и английский языки с переносами
+\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate,float,listings} %подключаем нужные пакеты расширений
+\usepackage{multirow} %излишние форматирование в таблицах
+\usepackage{array}
+%\usepackage[dvips]{graphicx} %хотим вставлять в диплом рисунки?
+\usepackage[all]{xy} % пакет для построения графов.
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest} %последний пакет - для генерации графиков на лету
+
+\graphicspath{{./image}}%путь к рисункам
+
+\makeatletter
+\renewcommand{\@biblabel}[1]{#1.} % Заменяем библиографию с квадратных скобок на точку:
+
+
+\makeatother
+
+\usepackage{geometry} % Меняем поля страницы
+\geometry{left=2cm}% левое поле
+\geometry{right=1.5cm}% правое поле
+\geometry{top=1cm}% верхнее поле
+\geometry{bottom=2cm}% нижнее поле
+\lstset{
+language=[Auto]Lisp,
+inputencoding=koi8-r
+} 
+% Меняем везде перечисления на цифра.цифра
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\labelenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{.\arabic{enumii}}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
+\renewcommand{\theenumiii}{.\arabic{enumiii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
+
+\begin{document}
+
+\input{TitlePage}% это титульный лист
+\input{Text}
+%\tableofcontents % это оглавление, которое генерируется автоматически
+\end{document}
