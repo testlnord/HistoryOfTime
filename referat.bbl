@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{redmonk12}
+Stephen O'Grady.
+\newblock The redmonk programming language rankings: February 2012.
+\newblock Website, 2012.
+\newblock
+  \url{http://redmonk.com/sogrady/2012/02/08/language-rankings-2-2012/}.
+
+\bibitem{conwaystat10}
+Drew Conway.
+\newblock Ranking the popularity of programming languages.
+\newblock Website, 2010.
+\newblock
+  \url{http://www.dataists.com/2010/12/ranking-the-popularity-of-programming-langauges/}.
+
+\bibitem{swedin2005computers}
+E.G. Swedin and D.L. Ferro.
+\newblock {\em Computers: The Life Story Of A Technology}.
+\newblock Greenwood Technographies. Greenwood Press, 2005.
+
+\bibitem{Fuegi:2003:LBC:1435605.1436041}
+John Fuegi and Jo~Francis.
+\newblock Lovelace \& babbage and the creation of the 1843 'notes'.
+\newblock {\em IEEE Ann. Hist. Comput.}, 25(4):16--26, October 2003.
+
+\bibitem{Turing1936}
+Alan~M. Turing.
+\newblock On computable numbers, with an application to the
+  entscheidungsproblem.
+\newblock {\em Proceedings of the London Mathematical Society}, 42:230--265,
+  1936.
+
+\bibitem{avtora6}
+Юрий Полунов.
+\newblock Автора ! ! !
+\newblock Website, 2006.
+\newblock
+  \url{http://www.pcweek.ru/themes/detail.php?ID=72606&phrase_id=204737}.
+
+\bibitem{vonNeumann:1993:FDR:612487.612553}
+John von Neumann.
+\newblock First draft of a report on the edvac.
+\newblock {\em IEEE Ann. Hist. Comput.}, 15(4):27--75, October 1993.
+
+\end{thebibliography}

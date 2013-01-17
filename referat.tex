@@ -1,34 +1,35 @@
-\documentclass[a4paper,12pt]{article} %СЂР°Р·РјРµСЂ Р±СѓРјР°РіРё СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј Рђ4, С€СЂРёС„С‚ 12РїСѓРЅРєС‚РѕРІ
+\documentclass[a4paper,12pt]{article} %размер бумаги устанавливаем А4, шрифт 12пунктов
 
 \usepackage[T2A]{fontenc}
-\usepackage[utf8]{inputenc}%РІРєР»СЋС‡Р°РµРј СЃРІРѕСЋ РєРѕРґРёСЂРѕРІРєСѓ: koi8-r РёР»Рё utf8 РІ UNIX, cp1251 РІ Windows
-\usepackage[english,russian]{babel}%РёСЃРїРѕР»СЊР·СѓРµРј СЂСѓСЃСЃРєРёР№ Рё Р°РЅРіР»РёР№СЃРєРёР№ СЏР·С‹РєРё СЃ РїРµСЂРµРЅРѕСЃР°РјРё
-\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate,float,listings} %РїРѕРґРєР»СЋС‡Р°РµРј РЅСѓР¶РЅС‹Рµ РїР°РєРµС‚С‹ СЂР°СЃС€РёСЂРµРЅРёР№
-\usepackage{multirow} %РёР·Р»РёС€РЅРёРµ С„РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РІ С‚Р°Р±Р»РёС†Р°С…
+\usepackage[cp1251]{inputenc}%включаем свою кодировку: koi8-r или utf8 в UNIX, cp1251 в Windows
+\usepackage[english,russian]{babel}%используем русский и английский языки с переносами
+\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate,float,listings} %подключаем нужные пакеты расширений
+\usepackage{multirow} %излишние форматирование в таблицах
 \usepackage{array}
-%\usepackage[dvips]{graphicx} %С…РѕС‚РёРј РІСЃС‚Р°РІР»СЏС‚СЊ РІ РґРёРїР»РѕРј СЂРёСЃСѓРЅРєРё?
-\usepackage[all]{xy} % РїР°РєРµС‚ РґР»СЏ РїРѕСЃС‚СЂРѕРµРЅРёСЏ РіСЂР°С„РѕРІ.
+%\usepackage[dvips]{graphicx} %хотим вставлять в диплом рисунки?
+\usepackage[all]{xy} % пакет для построения графов.
 \usepackage{pgfplots}
-\pgfplotsset{compat=newest} %РїРѕСЃР»РµРґРЅРёР№ РїР°РєРµС‚ - РґР»СЏ РіРµРЅРµСЂР°С†РёРё РіСЂР°С„РёРєРѕРІ РЅР° Р»РµС‚Сѓ
+\pgfplotsset{compat=newest} %последний пакет - для генерации графиков на лету
 
-\graphicspath{{./image}}%РїСѓС‚СЊ Рє СЂРёСЃСѓРЅРєР°Рј
+\graphicspath{{./image}}%путь к рисункам
 
 \makeatletter
-\renewcommand{\@biblabel}[1]{#1.} % Р—Р°РјРµРЅСЏРµРј Р±РёР±Р»РёРѕРіСЂР°С„РёСЋ СЃ РєРІР°РґСЂР°С‚РЅС‹С… СЃРєРѕР±РѕРє РЅР° С‚РѕС‡РєСѓ:
+\renewcommand{\@biblabel}[1]{#1.} % Заменяем библиографию с квадратных скобок на точку:
 
 
 \makeatother
 
-\usepackage{geometry} % РњРµРЅСЏРµРј РїРѕР»СЏ СЃС‚СЂР°РЅРёС†С‹
-\geometry{left=2cm}% Р»РµРІРѕРµ РїРѕР»Рµ
-\geometry{right=1.5cm}% РїСЂР°РІРѕРµ РїРѕР»Рµ
-\geometry{top=1cm}% РІРµСЂС…РЅРµРµ РїРѕР»Рµ
-\geometry{bottom=2cm}% РЅРёР¶РЅРµРµ РїРѕР»Рµ
+\usepackage{url}
+\usepackage{geometry} % Меняем поля страницы
+\geometry{left=2cm}% левое поле
+\geometry{right=1.5cm}% правое поле
+\geometry{top=1cm}% верхнее поле
+\geometry{bottom=2cm}% нижнее поле
 \lstset{
 language=[Auto]Lisp,
 inputencoding=koi8-r
 } 
-% РњРµРЅСЏРµРј РІРµР·РґРµ РїРµСЂРµС‡РёСЃР»РµРЅРёСЏ РЅР° С†РёС„СЂР°.С†РёС„СЂР°
+% Меняем везде перечисления на цифра.цифра
 \renewcommand{\theenumi}{\arabic{enumi}}
 \renewcommand{\labelenumi}{\arabic{enumi}}
 \renewcommand{\theenumii}{.\arabic{enumii}}
@@ -36,9 +37,18 @@ inputencoding=koi8-r
 \renewcommand{\theenumiii}{.\arabic{enumiii}}
 \renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
 
+\bibliographystyle{unsrt} 
+\makeatletter
+\bibliographystyle{unsrt}
+\renewcommand{\@biblabel}[1]{#1.}
+\makeatother
 \begin{document}
 
-\input{TitlePage}% СЌС‚Рѕ С‚РёС‚СѓР»СЊРЅС‹Р№ Р»РёСЃС‚
+\input{TitlePage}% это титульный лист
 \input{Text}
-%\tableofcontents % СЌС‚Рѕ РѕРіР»Р°РІР»РµРЅРёРµ, РєРѕС‚РѕСЂРѕРµ РіРµРЅРµСЂРёСЂСѓРµС‚СЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё
+\newpage
+\tableofcontents % это оглавление, которое генерируется автоматически
+\newpage
+\renewcommand\refname{Список использованных источников}
+\bibliography{hist}
 \end{document}
