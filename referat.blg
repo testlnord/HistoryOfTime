@@ -3,44 +3,48 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: referat.aux
 The style file: unsrt.bst
 Database file #1: hist.bib
-You've used 7 entries,
+Warning--I didn't find a database entry for "vonNeumann:1993:FDR:612487.612553"
+Warning--can't use both author and editor fields in Kernighan:1988:CPL:576122
+Warning--empty title in babbage22
+You've used 18 entries,
             1791 wiz_defined-function locations,
-            493 strings with 4604 characters,
-and the built_in function-call counts, 1257 in all, are:
-= -- 122
-> -- 36
-< -- 0
-+ -- 16
-- -- 9
-* -- 61
-:= -- 205
-add.period$ -- 25
-call.type$ -- 7
-change.case$ -- 6
+            549 strings with 6083 characters,
+and the built_in function-call counts, 3097 in all, are:
+= -- 287
+> -- 95
+< -- 1
++ -- 42
+- -- 24
+* -- 111
+:= -- 487
+add.period$ -- 64
+call.type$ -- 18
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 52
-empty$ -- 141
-format.name$ -- 9
-if$ -- 282
+cite$ -- 20
+duplicate$ -- 148
+empty$ -- 364
+format.name$ -- 24
+if$ -- 730
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 5
-newline$ -- 41
-num.names$ -- 7
-pop$ -- 26
+int.to.str$ -- 18
+missing$ -- 16
+newline$ -- 100
+num.names$ -- 18
+pop$ -- 93
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 19
+skip$ -- 56
 stack$ -- 0
-substring$ -- 63
-swap$ -- 7
-text.length$ -- 0
+substring$ -- 87
+swap$ -- 28
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 13
-width$ -- 8
-write$ -- 82
+warning$ -- 2
+while$ -- 25
+width$ -- 20
+write$ -- 204
+(There were 3 warnings)

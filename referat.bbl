@@ -1,4 +1,64 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{biancuzzi2009masterminds}
+F.~Biancuzzi.
+\newblock {\em Masterminds of Programming: Conversations with the Creators of
+  Major Programming Languages}.
+\newblock Theory in Practice (o'Reilly) Series. O'Reilly Media, 2009.
+
+\bibitem{DBLP:conf/hopl/Stroustrup93}
+Bjarne Stroustrup.
+\newblock A history of c++: 1979-1991.
+\newblock In {\em HOPL Preprints}, pages 271--297, 1993.
+
+\bibitem{wall2008}
+Л.~Уолл, Т.~Кристиансен, and Д.~Орвант.
+\newblock {\em Программирование на Perl: [пер. с англ.]}.
+\newblock Символ-Плюс, 2008.
+
+\bibitem{flanagan2008ruby}
+D.~Flanagan and Y.~Matsumoto.
+\newblock {\em The Ruby Programming Language}.
+\newblock Oreilly Series. O'Reilly Media, Incorporated, 2008.
+
+\bibitem{Kernighan:1988:CPL:576122}
+Brian~W. Kernighan.
+\newblock {\em The C Programming Language}.
+\newblock Prentice Hall Professional Technical Reference, 2nd edition, 1988.
+
+\bibitem{cw-awk}
+Naomi Hamilton.
+\newblock The a-z of programming languages: Awk.
+\newblock Website, 2008.
+\newblock
+  \url{http://www.computerworld.com.au/article/216844/a-z_programming_languages_awk/}.
+
+\bibitem{cw-python}
+Naomi Hamilton.
+\newblock The a-z of programming languages: Python.
+\newblock Website, 2008.
+\newblock
+  \url{http://www.computerworld.com.au/article/255835/a-z_programming_languages_python/}.
+
+\bibitem{lih_perlpython}
+Nick.
+\newblock Причины популярности php на фоне perl web frameworks.
+\newblock Website, 2009.
+\newblock
+  \url{http://laziness-impatience-hubris.blogspot.ru/2009/07/php-perl-web-frameworks.html/}.
+
+\bibitem{ohloh12}
+Black Duck.
+\newblock Compare languages.
+\newblock Website, 2012.
+\newblock \url{http://www.ohloh.net/languages/compare}.
+
+\bibitem{tiobe12}
+TIOBE Software.
+\newblock Tiobe programming community index for january 2013.
+\newblock Website, 2012.
+\newblock
+  \url{http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html}.
 
 \bibitem{redmonk12}
 Stephen O'Grady.
@@ -19,6 +79,10 @@ E.G. Swedin and D.L. Ferro.
 \newblock {\em Computers: The Life Story Of A Technology}.
 \newblock Greenwood Technographies. Greenwood Press, 2005.
 
+\bibitem{babbage22}
+Charles Babbage and Henry~P. Babbage.
+\newblock Cambridge University Press, 2010.
+
 \bibitem{Fuegi:2003:LBC:1435605.1436041}
 John Fuegi and Jo~Francis.
 \newblock Lovelace \& babbage and the creation of the 1843 'notes'.
@@ -38,9 +102,10 @@ Alan~M. Turing.
 \newblock
   \url{http://www.pcweek.ru/themes/detail.php?ID=72606&phrase_id=204737}.
 
-\bibitem{vonNeumann:1993:FDR:612487.612553}
-John von Neumann.
-\newblock First draft of a report on the edvac.
-\newblock {\em IEEE Ann. Hist. Comput.}, 15(4):27--75, October 1993.
+\bibitem{4640530}
+William~F. Schmitt.
+\newblock The univac short code.
+\newblock {\em Annals of the History of Computing}, 10(1):7 --18, jan.-march
+  1988.
 
 \end{thebibliography}
